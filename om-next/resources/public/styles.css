@@ -1,0 +1,21 @@
+html, body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.add-todo > div > input {
+  font-size: 0.5em;
+}
